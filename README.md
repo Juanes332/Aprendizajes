@@ -1,2 +1,2 @@
 # Aprendizajes
-En este repositorio estará todo el viaje en mis aprendizajes
+En este repositorio estará todo el viaje de mis aprendizajes
