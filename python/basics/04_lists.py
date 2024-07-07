@@ -160,8 +160,9 @@ print(
 print(
     f'Hola {invitados[1]} te invito a cenar el viernes en la noche ¿Te animas?')
 
+# --------------------------------------------------------------------------------------------------------------------
 
-# Ordenar una lista de manera permante sorted ()
+# Ordenar una lista de manera permante sort ()
 
 animes = ['oregairu', 'shigatsu wa kimi no uso',
           'naruto', 'kimetsu no yaiba', 'jujustu kaisen']
@@ -197,3 +198,68 @@ print(f'Animes con reverse {animes}')
 animes = ['oregairu', 'shigatsu wa kimi no uso',
           'naruto', 'kimetsu no yaiba', 'jujustu kaisen']
 print(len(animes))
+
+
+world_places = ['Noruega', 'Japón', 'Nueva Zelanda', 'Bali', 'España']
+
+print(sorted(world_places))
+print(world_places)
+print(sorted(world_places, reverse=True))
+
+world_places.reverse()
+print(world_places)
+
+world_places.reverse()
+print(world_places)
+
+world_places.sort()
+print(world_places)
+
+world_places.sort(reverse=True)
+print(world_places)
+
+print(len(invitados))
+
+
+# Todas las funciones para trabajar con listas:3
+list_numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
+# Añadir un elemento al final de la lista
+list_numbers.append(90)
+print(list_numbers)
+
+# Añadir un elemento en una posición concreta de la lista
+list_numbers.insert(35, 7)
+print(list_numbers)
+
+# Actualizar una lista
+list_numbers[1] = 20
+print(list_numbers)
+
+# Eliminar un elemento de la lista de manera permanente
+del list_numbers[3]
+print(list_numbers)
+
+# Eliminar un elemento de la lista y usar este elemento eliminado
+
+popped_element = list_numbers.pop(6)
+print(popped_element)
+print(list_numbers)
+
+# Ordenar una lista
+print(sorted(list_numbers))
+print(sorted(list_numbers, reverse=True))
+
+list_numbers.reverse()
+print(list_numbers)
+
+
+list_numbers.reverse()
+print(list_numbers)
+
+
+list_numbers.sort()
+print(list_numbers)
+
+list_numbers.sort(reverse=True)
+print(list_numbers)
