@@ -23,7 +23,7 @@ print(my_other_list[0])
 print(my_other_list[1])
 print(my_other_list[-1])
 print(my_other_list[-4])
-print(my_list.count(30))
+print(my_list.count(20))
 # print(my_other_list[4]) IndexError
 # print(my_other_list[-5]) IndexError
 
@@ -148,11 +148,11 @@ invitado3 = invitados.pop(2)
 
 
 print(f'Lo siento {
-      invitado1} nos quitaron la mesa grande y se cancelaron las invitaciones\nPrometo invitarte la otra semana <3')
+      invitado1} nos quitaron la mesa grande y se cancelaron las invitaciones\nPrometo invitarte la otra semana < 3')
 print(f'Lo siento {
-      invitado2} nos quitaron la mesa grande y se cancelaron las invitaciones\nPrometo invitarte la otra semana <3')
+      invitado2} nos quitaron la mesa grande y se cancelaron las invitaciones\nPrometo invitarte la otra semana < 3')
 print(f'Lo siento {
-      invitado3} nos quitaron la mesa grande y se cancelaron las invitaciones\nPrometo invitarte la otra semana <3')
+      invitado3} nos quitaron la mesa grande y se cancelaron las invitaciones\nPrometo invitarte la otra semana < 3')
 
 
 print(
