@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+body{
+    background-color: #000;
+    color: #fff;
+}
+
+.meme{
+    display: grid;
+    place-items: center;
+    margin-top: 40px;
+}
+
+.image{
+    border: 5px solid #fff;
+    width: 600px;
+}
+.text-meme{
+    text-align: center;
+    font-size: 30px;
+}
+p{
+    font-size: 16px;
+}
